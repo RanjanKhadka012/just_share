@@ -1,8 +1,11 @@
 {
-    "manifest version" : 3,
+    "manifest_version" : 3,
     "name" : "just share",
     "version": "1.0.0",
+    "description": "A web extension that let's you share files and folders wirelessly between the devices",
 
-    "default_locale": "en",
-    "description": "A plain text description"
+
+    "browser_action":{
+        "default_popup":"popup.html"
+    }
 }
